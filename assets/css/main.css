@@ -137,6 +137,7 @@
 			width: 65em;
 		}
 
+
 	}
 
 	@media screen and (max-width: 980px) {
@@ -162,7 +163,6 @@
 		.container {
 			width: 90%;
 		}
-
 	}
 
 	@media screen and (max-width: 736px) {
@@ -189,6 +189,10 @@
 			width: 90% !important;
 		}
 
+		.row{
+			display: flex;
+			flex-direction: column;
+		}
 	}
 
 	@media screen and (max-width: 480px) {
@@ -213,6 +217,11 @@
 
 		.container {
 			width: 90% !important;
+		}
+
+		.row{
+			display: flex;
+			flex-direction: column;
 		}
 
 	}
