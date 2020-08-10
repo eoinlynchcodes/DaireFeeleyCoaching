@@ -3286,3 +3286,8 @@
 .paddingForTopOfAbout{
 	padding-top: 5rem;
 }
+
+.mobileNav{
+	display: flex;
+	flex-direction: row;
+}
