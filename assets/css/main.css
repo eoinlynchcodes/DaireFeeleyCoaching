@@ -3272,3 +3272,8 @@
 .whiteText{
 	color: white;
 }
+
+
+.paddingForTopOfAbout{
+	padding-top: 5rem;
+}
