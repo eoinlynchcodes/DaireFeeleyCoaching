@@ -3330,7 +3330,10 @@ nav a{
 }
 
 a:hover {
-	color: white;
+	color: grey;
   }
 
+.formOrNot{
+display: none;
+}
 
