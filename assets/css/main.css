@@ -2824,12 +2824,12 @@
 		}
 
 		#header nav {
-			height: inherit;
+			/* height: inherit;
 			line-height: inherit;
 			position: absolute;
 			right: 1.25em;
 			top: 0;
-			vertical-align: middle;
+			vertical-align: middle; */
 		}
 
 			#header nav ul {
@@ -2876,7 +2876,7 @@
 					}
 
 		#header .container {
-			position: relative;
+			/* position: relative; */
 		}
 
 			#header .container h1 {
@@ -2925,11 +2925,15 @@
 			}
 
 		@media screen and (max-width: 980px) {
-
-			#header {
+			#daireFeeleyMainHeading{
 				display: none;
+				background-color: green;
 			}
-
+			
+			#header{
+				/* display: none; */
+				background-color: red;
+			}
 		}
 
 /* Menu */
@@ -2955,11 +2959,9 @@
 		}
 
 		@media screen and (max-width: 980px) {
-
 			.navPanelToggle {
 				display: block;
 			}
-
 		}
 
 		.navPanelToggle *:before {
@@ -3075,12 +3077,10 @@
 			}
 
 			@media screen and (max-width: 736px) {
-
 				#navPanel .close {
 					height: 4em;
 					line-height: 4em;
 				}
-
 			}
 
 		#navPanel.visible {
@@ -3101,7 +3101,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/Daire\ web\ 3.jpg");
+		background-image: url("images/.png"), url("../../images/Daire\ web\ 3.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -3308,4 +3308,18 @@
 	align-items: center;
 	justify-content: center;
 	padding-bottom: 2rem;
+}
+
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+	display: flex;
+	justify-content: space-between;
 }
