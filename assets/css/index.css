@@ -2085,6 +2085,7 @@
 
 	form {
 		margin: 0 0 2em 0;
+		display: none;
 	}
 
 	label {
@@ -3333,7 +3334,11 @@ a:hover {
 	color: grey;
   }
 
+
 .formOrNot{
-display: none;
+	display: block;
 }
 
+#contactFormOnContact{
+	display: block;
+}

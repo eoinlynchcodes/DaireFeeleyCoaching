@@ -1,4 +1,4 @@
 function openOrClose() {
-    var element = document.getElementById("openOrCloseButton");
+    var element = document.getElementById("openOrClose");
     element.classList.toggle("formOrNot");
   }
