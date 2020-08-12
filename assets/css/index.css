@@ -3328,3 +3328,7 @@ nav a{
 	display: flex;
 	justify-content: space-between;
 }
+
+a:hover {
+	color: white;
+  }
