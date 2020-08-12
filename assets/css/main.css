@@ -3305,3 +3305,10 @@
 	justify-content: center;
 	padding-bottom: 2rem;
 }
+
+.indexWhiteText{
+	color: black;
+	background-color: white;
+	margin: 0 auto;
+	width: 70%;
+}
