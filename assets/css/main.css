@@ -3325,3 +3325,8 @@
 	width: 80%;
 	background-color: red;
 }
+
+#footerNav{
+	display: flex;
+	justify-content: space-evenly;
+}
