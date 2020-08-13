@@ -3312,3 +3312,16 @@
 	margin: 0 auto;
 	width: 70%;
 }
+
+.aboutAisling{
+	display: flex;
+	flex-direction: column;
+}
+
+.eoinButton{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 80%;
+	background-color: red;
+}
