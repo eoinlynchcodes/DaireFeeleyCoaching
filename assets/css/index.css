@@ -2938,7 +2938,11 @@
 			
 			#header{
 				/* display: none; */
-				background-color: red;
+				background-color: black;
+			}
+
+			#header a{
+				color: white;
 			}
 		}
 
